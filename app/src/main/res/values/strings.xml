@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="food_drinks"><![CDATA[Food & Drinks]]></string>
+    <string name="muzeum_theatre"><![CDATA[Muzeum & Theatre]]></string>
+    <string name="attractions">Attractions</string>
+    <string name="warsaw_tour_guide">Warsaw Tour Guide</string>
+
+</resources>

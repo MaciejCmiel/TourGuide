@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.macx.tourguide.activities.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_tour_guide"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/warsaw_tour_guide"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <View style="@style/SeparatorView" />
+
+    <TextView
+        android:id="@+id/muzeum"
+        style="@style/MenuOptions"
+        android:text="@string/muzeum_theatre" />
+
+    <View style="@style/SeparatorView" />
+
+    <TextView
+        android:id="@+id/food"
+        style="@style/MenuOptions"
+        android:text="@string/food_drinks" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</LinearLayout>
