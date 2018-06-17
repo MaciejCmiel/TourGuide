@@ -34,11 +34,11 @@ public class DrinkFragment extends Fragment {
 
         ArrayList<Location> locations = new ArrayList<>();
 
-        locations.add(new Location("Faktoria win", "Taśmowa 7", R.drawable.wina));
-        locations.add(new Location("Starbucks", "al. Jana Pawła II 82", R.drawable.starbucks));
-        locations.add(new Location("Costa", "Górczewska 218", R.drawable.costa));
-        locations.add(new Location("Charlotte", "aleja Wyzwolenia 18/2U", R.drawable.charlotte_wina));
-        locations.add(new Location("Manekin", "Marszałkowska 140", R.drawable.manekin));
+        locations.add(new Location(getString(R.string.name_faktoria_win), getString(R.string.localization_faktoria), R.drawable.wina));
+        locations.add(new Location(getString(R.string.name_starbusck), getString(R.string.localization_starbucks), R.drawable.starbucks));
+        locations.add(new Location(getString(R.string.name_costa), getString(R.string.localization_costa), R.drawable.costa));
+        locations.add(new Location(getString(R.string.name_charlotte), getString(R.string.localization_charlotte), R.drawable.charlotte_wina));
+        locations.add(new Location(getString(R.string.name_manekin) , getString(R.string.localization_manekin), R.drawable.manekin));
 
         itemsAdapter = new LocationAdapter(getActivity(), locations);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

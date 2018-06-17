@@ -19,8 +19,6 @@ public class AttractionsActivity extends AppCompatActivity {
 
         int type = getIntent().getIntExtra("TYPE", 0);
 
-        Log.i(AttractionsActivity.class.getName(), "TEST: Attractions Activity");
-
         ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
         FixedTabsPagerAdapter adapter = new FixedTabsPagerAdapter(this, getSupportFragmentManager(), type);
 

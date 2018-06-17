@@ -36,10 +36,10 @@ public class MuzeumFragment extends Fragment {
 
         ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("Muzeum Powstania Warszawskiego", "Grzybowska 79", R.drawable.powstania));
-        locations.add(new Location("Muzeum Warszawy", "Rynek Starego Miasta", R.drawable.muzeum_warsaw));
-        locations.add(new Location("Muzeum Etnograficzne", "Kredytowa 1", R.drawable.etnograficzne));
-        locations.add(new Location("Muzeum Techniki i Przemysłu", "Pałac kultury i nauki", R.drawable.techniki_przemyslu));
+        locations.add(new Location(getString(R.string.muzeum_powstania), getString(R.string.grzybowska), R.drawable.powstania));
+        locations.add(new Location(getString(R.string.muzeum_warszawy), getString(R.string.stare_miasto), R.drawable.muzeum_warsaw));
+        locations.add(new Location(getString(R.string.etnograficzne), getString(R.string.kredytowa), R.drawable.etnograficzne));
+        locations.add(new Location(getString(R.string.muzeum_t_i_p), getString(R.string.pkin), R.drawable.techniki_przemyslu));
 
         itemsAdapter = new LocationAdapter(getActivity(), locations);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

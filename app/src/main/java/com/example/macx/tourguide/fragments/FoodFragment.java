@@ -34,10 +34,10 @@ public class FoodFragment extends Fragment {
 
         ArrayList<Location> locations = new ArrayList<>();
 
-        locations.add(new Location("Krowarzywa", "Hoża 29", R.drawable.krowarzywa));
-        locations.add(new Location("Manekin", "Marszałkowska 140", R.drawable.manekin));
-        locations.add(new Location("Zapiecek", "Chmielna", R.drawable.zapiecek));
-        locations.add(new Location("Sushi Maestro", "Nowy Świat 64", R.drawable.sushi_maestro));
+        locations.add(new Location(getString(R.string.name_krowarzywa), getString(R.string.localization_krowarzywa), R.drawable.krowarzywa));
+        locations.add(new Location(getString(R.string.name_manekin), getString(R.string.localization_manekin), R.drawable.manekin));
+        locations.add(new Location(getString(R.string.name_zapiecek), getString(R.string.localization_zapiecek), R.drawable.zapiecek));
+        locations.add(new Location(getString(R.string.name_sushi), getString(R.string.localization_sushi), R.drawable.sushi_maestro));
 
         itemsAdapter = new LocationAdapter(getActivity(), locations);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

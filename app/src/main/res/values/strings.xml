@@ -5,5 +5,36 @@
     <string name="muzeum_theatre"><![CDATA[Muzeum & Theatre]]></string>
     <string name="attractions">Attractions</string>
     <string name="warsaw_tour_guide">Warsaw Tour Guide</string>
+    <string name="muzeum_powstania">Muzeum Powstania Warszawskiego</string>
+    <string name="grzybowska">Grzybowska 79</string>
+    <string name="stare_miasto">Rynek Starego Miasta</string>
+    <string name="muzeum_warszawy">Muzeum Warszawy</string>
+    <string name="etnograficzne">Muzeum Etnograficzne</string>
+    <string name="muzeum_t_i_p">Muzeum Techniki i Przemysłu</string>
+    <string name="pkin">Pałac kultury i nauki</string>
+    <string name="kredytowa">Kredytowa 1</string>
+    <string name="six_floor">6 Piętro</string>
+    <string name="ateneum_name">Ateneum</string>
+    <string name="name_capitol">Capitol</string>
+    <string name="name_dramatic">Teatr Dramatyczny</string>
+    <string name="localization_dramatic">Pałac kultury i nauki</string>
+    <string name="localization_capitol">Marszałkowska 115</string>
+    <string name="localization_ateneum">Jaracza 2</string>
+    <string name="name_krowarzywa">Krowarzywa</string>
+    <string name="localization_krowarzywa">Hoża 29</string>
+    <string name="name_manekin">Manekin</string>
+    <string name="name_zapiecek">Zapiecek</string>
+    <string name="name_sushi">Sushi Maestro</string>
+    <string name="localization_sushi">Nowy Świat 64</string>
+    <string name="localization_zapiecek">Chmielna</string>
+    <string name="localization_manekin">Marszałkowska 140</string>
+    <string name="name_faktoria_win">Faktoria win</string>
+    <string name="name_starbusck">Starbucks</string>
+    <string name="name_costa">Costa</string>
+    <string name="name_charlotte">Charlotte</string>
+    <string name="localization_charlotte">aleja Wyzwolenia 18/2U</string>
+    <string name="localization_costa">Górczewska 218</string>
+    <string name="localization_starbucks">al. Jana Pawła II 82</string>
+    <string name="localization_faktoria">Taśmowa 7</string>
 
 </resources>

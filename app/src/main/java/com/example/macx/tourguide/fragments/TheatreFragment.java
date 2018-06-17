@@ -34,10 +34,10 @@ public class TheatreFragment extends Fragment {
 
         ArrayList<Location> locations = new ArrayList<>();
 
-        locations.add(new Location("6 Piętro", "Pałac kultury i nauki", R.drawable.six_floor));
-        locations.add(new Location("Ateneum", "Jaracza 2", R.drawable.ateneum));
-        locations.add(new Location("Capitol", "Marszałkowska 115", R.drawable.capitol));
-        locations.add(new Location("Teatr Dramatyczny", "Pałac kultury i nauki", R.drawable.dramatyczny));
+        locations.add(new Location(getString(R.string.six_floor), getString(R.string.pkin), R.drawable.six_floor));
+        locations.add(new Location(getString(R.string.ateneum_name), getString(R.string.localization_ateneum), R.drawable.ateneum));
+        locations.add(new Location(getString(R.string.name_capitol), getString(R.string.localization_capitol), R.drawable.capitol));
+        locations.add(new Location(getString(R.string.name_dramatic), getString(R.string.localization_dramatic), R.drawable.dramatyczny));
 
         itemsAdapter = new LocationAdapter(getActivity(), locations);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
